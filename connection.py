@@ -1,4 +1,4 @@
-'''This scripts try to connect to Xero without using any python wrapper
+'''This script tries to connect to Xero without using any python wrapper
 created by Muhit Anik <muhit@convertworx.com.au>
 For xero reference use this guide: https://developer.xero.com/documentation/api
 
