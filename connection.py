@@ -54,9 +54,9 @@ def Xero(url, requestType="GET", body=""):
 
 def filter_invoice_by_contact_name():
     ### API reference: https://developer.xero.com/documentation/api/invoices
-    ### Example-1: Getting invoices where Contact Name is "B Catering Melbourne"
+    ### Example-1: Getting invoices where Contact Name is "ABCD"
     base_url = "https://api.xero.com/api.xro/2.0/Invoices?where="
-    filter_url = 'Contact.Name=="Q Catering Melbourne"'   ### value must be double quoted, single quoting will fail.
+    filter_url = 'Contact.Name=="ABCD"'   ### value must be double quoted, single quoting will fail.
     url = base_url + quote(filter_url)
     Xero(url)
 
